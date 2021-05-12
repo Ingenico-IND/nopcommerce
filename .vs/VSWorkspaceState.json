@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "\\Plugins",
+    "\\Plugins\\Nop.Plugin.Payments.CheckMoneyOrder",
+    "\\Plugins\\Nop.Plugin.Payments.CheckMoneyOrder\\Components",
+    "\\Plugins\\Nop.Plugin.Payments.CheckMoneyOrder\\Models",
+    "\\Plugins\\Nop.Plugin.Payments.CheckMoneyOrder\\Views",
+    "\\Plugins\\Nop.Plugin.Payments.Ingenico",
+    "\\Plugins\\Nop.Plugin.Payments.Ingenico\\Components",
+    "\\Plugins\\Nop.Plugin.Payments.Ingenico\\Controllers",
+    "\\Plugins\\Nop.Plugin.Payments.Ingenico\\Models"
+  ],
+  "PreviewInSolutionExplorer": false
+}

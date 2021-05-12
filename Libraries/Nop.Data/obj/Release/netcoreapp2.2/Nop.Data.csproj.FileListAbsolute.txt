@@ -1,0 +1,12 @@
+F:\IngenicoCore\src\Libraries\Nop.Data\bin\Release\netcoreapp2.2\Nop.Data.deps.json
+F:\IngenicoCore\src\Libraries\Nop.Data\bin\Release\netcoreapp2.2\Nop.Data.dll
+F:\IngenicoCore\src\Libraries\Nop.Data\bin\Release\netcoreapp2.2\Nop.Data.pdb
+F:\IngenicoCore\src\Libraries\Nop.Data\bin\Release\netcoreapp2.2\Nop.Core.dll
+F:\IngenicoCore\src\Libraries\Nop.Data\bin\Release\netcoreapp2.2\Nop.Core.pdb
+F:\IngenicoCore\src\Libraries\Nop.Data\obj\Release\netcoreapp2.2\Nop.Data.csprojAssemblyReference.cache
+F:\IngenicoCore\src\Libraries\Nop.Data\obj\Release\netcoreapp2.2\Nop.Data.csproj.CoreCompileInputs.cache
+F:\IngenicoCore\src\Libraries\Nop.Data\obj\Release\netcoreapp2.2\Nop.Data.AssemblyInfoInputs.cache
+F:\IngenicoCore\src\Libraries\Nop.Data\obj\Release\netcoreapp2.2\Nop.Data.AssemblyInfo.cs
+F:\IngenicoCore\src\Libraries\Nop.Data\obj\Release\netcoreapp2.2\Nop.Data.csproj.CopyComplete
+F:\IngenicoCore\src\Libraries\Nop.Data\obj\Release\netcoreapp2.2\Nop.Data.dll
+F:\IngenicoCore\src\Libraries\Nop.Data\obj\Release\netcoreapp2.2\Nop.Data.pdb
