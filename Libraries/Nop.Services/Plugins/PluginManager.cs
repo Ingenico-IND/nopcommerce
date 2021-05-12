@@ -112,6 +112,7 @@ namespace Nop.Services.Plugins
         }
 
         /// <summary>
+        /// <summary>
         /// Check whether the passed plugin is active
         /// </summary>
         /// <param name="plugin">Plugin to check</param>

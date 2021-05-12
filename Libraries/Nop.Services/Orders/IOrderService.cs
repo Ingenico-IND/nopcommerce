@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using Nop.Core;
 using Nop.Core.Domain.Orders;
@@ -18,7 +18,7 @@ namespace Nop.Services.Orders
         /// <param name="orderId">The order identifier</param>
         /// <returns>Order</returns>
         Order GetOrderById(int orderId);
-
+        IList<Order> GetOrdersByCustId(int custId);
         /// <summary>
         /// Gets an order
         /// </summary>

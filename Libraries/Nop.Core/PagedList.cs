@@ -35,6 +35,8 @@ namespace Nop.Core
                     return;
                 //AddRange(source.Skip(pageIndex * pageSize).Take(pageSize).ToList());
                 //AddRange(source.Skip(pageIndex * pageSize).Take(pageSize).ToList());
+                //AddRange(source.ToList());
+                AddRange(source.ToList().Skip(pageIndex * pageSize).Take(pageSize));
             }
             catch (Exception ex)
             {

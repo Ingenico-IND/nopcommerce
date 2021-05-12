@@ -4,6 +4,24 @@
     //page class
     //Html.AppendPageCssClassParts("html-home-page");
 }
+
+<div class="page home-page">
+    <div class="page-body">
+        @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HomepageTop })
+        @await Component.InvokeAsync("TopicBlock", new { systemName = "HomepageText" })
+        @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HomepageBeforeCategories })
+        @await Component.InvokeAsync("HomepageCategories")
+        @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HomepageBeforeProducts })
+        @await Component.InvokeAsync("HomepageProducts")
+        @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HomepageBeforeBestSellers })
+        @await Component.InvokeAsync("HomepageBestSellers")
+        @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HomepageBeforeNews })
+        @await Component.InvokeAsync("HomepageNews")
+        @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HomepageBeforePoll })
+        @await Component.InvokeAsync("HomepagePolls")
+        @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HomepageBottom })
+    </div>
+</div>
 @*<div class="page home-page">
     <div class="page-body">
         @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HomepageTop })
@@ -23,7 +41,7 @@
 </div>*@
 
 
-<html>
+@*<html>
 
 <head>
     <title>Checkout Demo</title>
@@ -52,9 +70,9 @@
 </head>
 
 <body>
-    <h1>Online Transaction</h1>
+   
 
-    <form id="form" action="#" accept-charset="UTF-8" method="post">
+    @*<form id="form" action="#" accept-charset="UTF-8" method="post">
         <input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" id="authenticity_token" value="" />
         <table border="1" cellpadding="2" cellspacing="0">
             <tbody>
@@ -182,7 +200,7 @@
             <input type="hidden" name="maxAmount" id="maxAmount" value="" />
             <input type="hidden" name="amountType" id="amountType" value="M"/>
             <input type="hidden" name="frequency" id="frequency" value="ADHO" />*@
-        <input type="hidden" name="cardNumber" id="cardNumber" />
+        @*<input type="hidden" name="cardNumber" id="cardNumber" />
         <input type="hidden" name="expMonth" id="expMonth" />
         <input type="hidden" name="expYear" id="expYear" />
         <input type="hidden" name="cvvCode" id="cvvCode" />
@@ -333,5 +351,5 @@ $.ajax({
     <div id="test34"></div>
 </body>
 
-</html>
+</html>*@
 

@@ -68,6 +68,8 @@ namespace Nop.Web.Controllers
             if (!_workContext.CurrentCustomer.IsRegistered())
                 return Challenge();
 
+           
+
             var model = _orderModelFactory.PrepareCustomerOrderListModel();
             return View(model);
         }

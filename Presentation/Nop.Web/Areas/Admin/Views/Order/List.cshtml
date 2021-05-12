@@ -1,20 +1,17 @@
 ﻿@model OrderSearchModel
-
 @inject IStoreService storeService
 @using Nop.Services.Stores
-
 @{
     //page title
     ViewBag.Title = T("Admin.Orders").Text;
     //active menu item (system name)
     Html.SetActiveMenuItemSystemName("Orders");
 }
-
 @{
     const string hideSearchBlockAttributeName = "OrdersPage.HideSearchBlock";
     var hideSearchBlock = genericAttributeService.GetAttribute<bool>(workContext.CurrentCustomer, hideSearchBlockAttributeName);
 }
-
+<script src="~/lib/datatables/datatables.js"></script>
 <form asp-controller="Order" asp-action="List" method="post">
     <div class="content-header clearfix">
         <h1 class="pull-left">
@@ -93,7 +90,6 @@
                             <div class="icon-search"><i class="fa fa-search" aria-hidden="true"></i></div>
                             <div class="icon-collapse"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
                         </div>
-
                         <div class="search-body @(hideSearchBlock ? "closed" : "")">
                             <div class="row">
                                 <div class="col-md-5">
@@ -277,7 +273,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="panel panel-default">
                     <div class="panel-body">
                         @{
@@ -291,39 +286,39 @@
                                 FooterCallback = !Model.IsLoggedInAsVendor ? "ordersfootercallback" : null,
                                 FooterColumns = !Model.IsLoggedInAsVendor ? 10 : 0,
                                 Filters = new List<FilterParameter>
-                                                {
-                                                    new FilterParameter(nameof(Model.StartDate)),
-                                                    new FilterParameter(nameof(Model.EndDate)),
-                                                    new FilterParameter(nameof(Model.OrderStatusIds)),
-                                                    new FilterParameter(nameof(Model.PaymentStatusIds)),
-                                                    new FilterParameter(nameof(Model.ShippingStatusIds)),
-                                                    new FilterParameter(nameof(Model.StoreId)),
-                                                    new FilterParameter(nameof(Model.VendorId)),
-                                                    new FilterParameter(nameof(Model.WarehouseId)),
-                                                    new FilterParameter(nameof(Model.BillingEmail)),
-                                                    new FilterParameter(nameof(Model.BillingPhone)),
-                                                    new FilterParameter(nameof(Model.BillingLastName)),
-                                                    new FilterParameter(nameof(Model.BillingCountryId)),
-                                                    new FilterParameter(nameof(Model.PaymentMethodSystemName)),
-                                                    new FilterParameter(nameof(Model.ProductId)),
-                                                    new FilterParameter(nameof(Model.OrderNotes))
-                                                }
+                                                                {
+                                                                    new FilterParameter(nameof(Model.StartDate)),
+                                                                    new FilterParameter(nameof(Model.EndDate)),
+                                                                    new FilterParameter(nameof(Model.OrderStatusIds)),
+                                                                    new FilterParameter(nameof(Model.PaymentStatusIds)),
+                                                                    new FilterParameter(nameof(Model.ShippingStatusIds)),
+                                                                    new FilterParameter(nameof(Model.StoreId)),
+                                                                    new FilterParameter(nameof(Model.VendorId)),
+                                                                    new FilterParameter(nameof(Model.WarehouseId)),
+                                                                    new FilterParameter(nameof(Model.BillingEmail)),
+                                                                    new FilterParameter(nameof(Model.BillingPhone)),
+                                                                    new FilterParameter(nameof(Model.BillingLastName)),
+                                                                    new FilterParameter(nameof(Model.BillingCountryId)),
+                                                                    new FilterParameter(nameof(Model.PaymentMethodSystemName)),
+                                                                    new FilterParameter(nameof(Model.ProductId)),
+                                                                    new FilterParameter(nameof(Model.OrderNotes))
+                                                                }
                             };
                             gridModel.ColumnCollection = new List<ColumnProperty>
-                                            {
-                                                new ColumnProperty(nameof(OrderModel.Id))
-                                                {
-                                                    IsMasterCheckBox = true,
-                                                    Render = new RenderCheckBox("checkbox_orders"),
-                                                    ClassName =  NopColumnClassDefaults.CenterAll,
-                                                    Width = "50",
-                                                },
-                                                new ColumnProperty(nameof(OrderModel.CustomOrderNumber))
-                                                {
-                                                    Title = T("Admin.Orders.Fields.CustomOrderNumber").Text,
-                                                    Width = "80"
-                                                }
-                                            };
+                                                            {
+                                                                new ColumnProperty(nameof(OrderModel.Id))
+                                                                {
+                                                                    IsMasterCheckBox = true,
+                                                                    Render = new RenderCheckBox("checkbox_orders"),
+                                                                    ClassName =  NopColumnClassDefaults.CenterAll,
+                                                                    Width = "50",
+                                                                },
+                                                                new ColumnProperty(nameof(OrderModel.CustomOrderNumber))
+                                                                {
+                                                                    Title = T("Admin.Orders.Fields.CustomOrderNumber").Text,
+                                                                    Width = "80"
+                                                                }
+                                                            };
                             //a vendor does not have access to this functionality
                             if (!Model.IsLoggedInAsVendor)
                             {
@@ -384,9 +379,7 @@
                             });
                             var orderSummaryColumnNumber = 8;
                         }
-
                         @await Html.PartialAsync("Table", gridModel)
-
                         <script>
                             function renderColumnOrderStatus(data, type, row, meta) {
                                 var color;
@@ -464,12 +457,10 @@
         </div>
     </div>
 </form>
-
 @*export selected (XML). We don't use GET approach because it's limited to 2K-4K chars and won't work for large number of entities*@
 <form asp-controller="Order" asp-action="ExportXmlSelected" method="post" id="export-xml-selected-form">
     <input type="hidden" id="selectedIds" name="selectedIds" value="" />
 </form>
-
 <script>
     $(document).ready(function () {
         $('#exportxml-selected').click(function (e) {
@@ -482,12 +473,10 @@
         });
     });
 </script>
-
 @*export selected (Excel). We don't use GET approach because it's limited to 2K-4K chars and won't work for large number of entities*@
 <form asp-controller="Order" asp-action="ExportExcelSelected" method="post" id="export-excel-selected-form">
     <input type="hidden" id="selectedIds" name="selectedIds" value="" />
 </form>
-
 <script>
     $(document).ready(function () {
         $('#exportexcel-selected').click(function (e) {
@@ -500,12 +489,10 @@
         });
     });
 </script>
-
 @*Print packaging slips selected (XML). We don't use GET approach because it's limited to 2K-4K chars and won't work for large number of entities*@
 <form asp-controller="Order" asp-action="PdfInvoiceSelected" method="post" id="pdf-invoice-selected-form">
     <input type="hidden" id="selectedIds" name="selectedIds" value="" />
 </form>
-
 <script>
     $(document).ready(function () {
         $('#pdf-invoice-selected').click(function (e) {

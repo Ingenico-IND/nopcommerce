@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.IO;
@@ -265,9 +265,9 @@ namespace Nop.Data.Extensions
 
             //get database connection
             var dbConnection = dbContext.Database.GetDbConnection();
-
-            //return the database name
-            databaseName = dbConnection.Database;
+            dbContext.Database.SetCommandTimeout(120);
+                //return the database name
+                databaseName = dbConnection.Database;
 
             return databaseName;
         }

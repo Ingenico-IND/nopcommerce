@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
@@ -78,6 +78,36 @@ namespace Nop.Services.Orders
                 return null;
 
             return _orderRepository.Table.FirstOrDefault(o => o.CustomOrderNumber == customOrderNumber);
+        }
+
+        /// <summary>
+        /// Get orders by identifiers
+        /// </summary>
+        /// <param name="orderIds">Order identifiers</param>
+        /// <returns>Order</returns>
+        public virtual IList<Order> GetOrdersByCustId(int custId)
+        {
+            if (custId == 0)
+                return new List<Order>();
+
+            //var query = from o in _orderRepository.Table
+            //            where cu && !o.Deleted
+            //            select o;
+
+            var query = _orderRepository.Table.Where(c=>c.CustomerId.Equals(custId) && !c.Deleted);
+      
+
+            var orders = query.ToList();
+            //sort by passed identifiers
+            //var sortedOrders = new List<Order>();
+            //foreach (var id in orderIds)
+            //{
+            //    var order = orders.Find(x => x.Id == id);
+            //    if (order != null)
+            //        sortedOrders.Add(order);
+            //}
+
+            return orders;
         }
 
         /// <summary>
@@ -181,7 +211,7 @@ namespace Nop.Services.Orders
                 query = query.Where(o => o.CustomerId == customerId);
             if (productId > 0)
                 query = query.Where(o => o.OrderItems.Any(orderItem => orderItem.ProductId == productId));
-           
+            var b=query.ToList();
             if (warehouseId > 0)
             {
                 var manageStockInventoryMethodId = (int)ManageInventoryMethod.ManageStock;
@@ -227,6 +257,8 @@ namespace Nop.Services.Orders
                 query = query.Where(o => o.OrderNotes.Any(on => on.Note.Contains(orderNotes)));
             query = query.Where(o => !o.Deleted);
             query = query.OrderByDescending(o => o.CreatedOnUtc);
+            b = query.ToList();
+           
 
             //database layer paging
             return new PagedList<Order>(query, pageIndex, pageSize, getOnlyTotalCount);

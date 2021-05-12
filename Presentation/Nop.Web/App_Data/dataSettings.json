@@ -1,5 +1,5 @@
 ﻿{
   "DataProvider": "sqlserver",
-  "DataConnectionString": "Data Source=192.168.1.84;Initial Catalog=TestDB_N;Integrated Security=False;Persist Security Info=False;User ID=sa;Password=synergy@12",
+  "DataConnectionString": "Data Source=192.168.1.84;Initial Catalog=TestDB_N;Integrated Security=False;Persist Security Info=False;User ID=sa;Password=synergy@12;Connection Timeout=120",
   "RawDataSettings": {}
 }

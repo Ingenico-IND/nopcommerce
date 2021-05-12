@@ -24,7 +24,8 @@ namespace Nop.Plugin.Payments.CheckMoneyOrder
         private readonly ISettingService _settingService;
         private readonly IShoppingCartService _shoppingCartService;
         private readonly IWebHelper _webHelper;
-
+        private readonly IOrderTotalCalculationService _orderTotalCalculationService;
+        private readonly IOrderService _orderService;
         #endregion
 
         #region Ctor
@@ -33,7 +34,7 @@ namespace Nop.Plugin.Payments.CheckMoneyOrder
             ILocalizationService localizationService,
             IPaymentService paymentService,
             ISettingService settingService,
-            IShoppingCartService shoppingCartService,
+            IShoppingCartService shoppingCartService, IOrderTotalCalculationService orderTotalCalculationService, IOrderService orderService,
             IWebHelper webHelper)
         {
             _checkMoneyOrderPaymentSettings = checkMoneyOrderPaymentSettings;
@@ -41,6 +42,8 @@ namespace Nop.Plugin.Payments.CheckMoneyOrder
             _paymentService = paymentService;
             _settingService = settingService;
             _shoppingCartService = shoppingCartService;
+          _orderTotalCalculationService = orderTotalCalculationService;
+          _orderService = orderService;
             _webHelper = webHelper;
         }
 

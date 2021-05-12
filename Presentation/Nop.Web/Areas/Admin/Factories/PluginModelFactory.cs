@@ -179,6 +179,11 @@ namespace Nop.Web.Areas.Admin.Factories
             var loadMode = (LoadPluginsMode)searchModel.SearchLoadModeId;
 
             //filter visible plugins
+            var plugins1 = _pluginService.GetPluginDescriptors<IPlugin>(group: group, loadMode: loadMode)
+               //.Where(p => p.ShowInPluginsList)
+               .OrderBy(plugin => plugin.Group).ToList()
+               .ToPagedList(searchModel);
+
             var plugins = _pluginService.GetPluginDescriptors<IPlugin>(group: group, loadMode: loadMode)
                 .Where(p => p.ShowInPluginsList)
                 .OrderBy(plugin => plugin.Group).ToList()

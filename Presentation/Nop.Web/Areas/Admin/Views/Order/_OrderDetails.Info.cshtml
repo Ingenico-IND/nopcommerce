@@ -12,7 +12,14 @@
             toggleOrderTotals(false);
             toggleCC(false);
         });
-
+        function copyToClipboard(element) {
+            //$(element).select();
+            
+            //var a = document.getElementById('link').innerText.toString();
+            //document.execCommand("copy", false, a.toString());
+            
+            //alert(document.getElementById('link').innerText);
+        }
         function toggleChangeOrderStatus(editmode) {
             if (editmode) {
                 $('#pnlChangeOrderStatus').show();
@@ -197,7 +204,7 @@
                 </div>
             </div>
             @if (((Model.AllowCustomersToSelectTaxDisplayType || Model.TaxDisplayType == TaxDisplayType.IncludingTax) && !string.IsNullOrEmpty(Model.OrderSubTotalDiscountInclTax)) ||
-               ((Model.AllowCustomersToSelectTaxDisplayType || Model.TaxDisplayType == TaxDisplayType.ExcludingTax) && !string.IsNullOrEmpty(Model.OrderSubTotalDiscountExclTax)))
+              ((Model.AllowCustomersToSelectTaxDisplayType || Model.TaxDisplayType == TaxDisplayType.ExcludingTax) && !string.IsNullOrEmpty(Model.OrderSubTotalDiscountExclTax)))
             {
                 <div class="form-group">
                     <div class="col-md-3">
@@ -261,7 +268,7 @@
                 </div>
             </div>
             @if (((Model.AllowCustomersToSelectTaxDisplayType || Model.TaxDisplayType == TaxDisplayType.IncludingTax) && !string.IsNullOrEmpty(Model.PaymentMethodAdditionalFeeInclTax)) ||
-               ((Model.AllowCustomersToSelectTaxDisplayType || Model.TaxDisplayType == TaxDisplayType.ExcludingTax) && !string.IsNullOrEmpty(Model.PaymentMethodAdditionalFeeExclTax)))
+              ((Model.AllowCustomersToSelectTaxDisplayType || Model.TaxDisplayType == TaxDisplayType.ExcludingTax) && !string.IsNullOrEmpty(Model.PaymentMethodAdditionalFeeExclTax)))
             {
                 <div class="form-group">
                     <div class="col-md-3">
@@ -498,12 +505,10 @@
                     <button type="submit" name="btnEditOrderTotals" onclick="toggleOrderTotals(true);return false;" id="btnEditOrderTotals" class="btn btn-primary">
                         @T("Admin.Orders.Fields.EditOrderTotals")
                     </button>
-
                     <button type="submit" name="btnSaveOrderTotals" id="btnSaveOrderTotals" class="btn btn-primary">
                         @T("Admin.Orders.Fields.SaveOrderTotals")
                     </button>
                     <nop-action-confirmation asp-button-id="btnSaveOrderTotals" />
-
                     <button type="submit" name="btnCancelOrderTotals" onclick="toggleOrderTotals(false);return false;" id="btnCancelOrderTotals" class="btn bg-teal">
                         @T("Admin.Common.Cancel")
                     </button>
@@ -600,12 +605,10 @@
                         <button type="submit" name="btnEditCC" onclick="toggleCC(true);return false;" id="btnEditCC" class="btn btn-primary">
                             @T("Admin.Orders.Fields.EditCC")
                         </button>
-
                         <button type="submit" name="btnSaveCC" id="btnSaveCC" class="btn btn-primary">
                             @T("Admin.Orders.Fields.SaveCC")
                         </button>
                         <nop-action-confirmation asp-button-id="btnSaveCC" />
-
                         <button type="submit" name="btnCancelCC" onclick="toggleCC(false);return false;" id="btnCancelCC" class="btn bg-teal">
                             @T("Admin.Common.Cancel")
                         </button>
@@ -622,6 +625,18 @@
                         <div class="form-text-row">@Model.AuthorizationTransactionId</div>
                     </div>
                 </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-label asp-for="CaptureTransactionResult" />
+                    </div>
+                    <div class="col-md-9">
+                        <div class="form-text-row" style="word-break:break-all">@Model.CaptureTransactionResult</div>
+                        @*<button type="button" class="btn btn-info btn-sm" onclick="copyToClipboard('#link')">
+            Copy Input Value
+        </button>
+                            <div class="form-text-row">@Model.CaptureTransactionResult</div>*@
+                    </div>
+                </div>
             }
             @if (!string.IsNullOrEmpty(Model.CaptureTransactionId))
             {
@@ -630,9 +645,13 @@
                         <nop-label asp-for="CaptureTransactionId" />
                     </div>
                     <div class="col-md-9">
-                        <div class="form-text-row">@Model.CaptureTransactionId</div>
+                      
+                        <div class="form-text-row">
+                           @Model.CaptureTransactionId
+                        </div>
                     </div>
-                </div>
+                       
+                    </div>
             }
             @if (!string.IsNullOrEmpty(Model.SubscriptionTransactionId))
             {
@@ -653,7 +672,6 @@
                     <div class="form-text-row">@Model.PaymentMethod</div>
                 </div>
             </div>
-
             <div class="form-group">
                 <div class="col-md-3">
                     <nop-label asp-for="PaymentStatus" />
@@ -663,7 +681,7 @@
                 </div>
             </div>
             @if (Model.CanCapture || Model.CanMarkOrderAsPaid || Model.CanRefund || Model.CanRefundOffline ||
-              Model.CanPartiallyRefund || Model.CanPartiallyRefundOffline || Model.CanVoid || Model.CanVoidOffline)
+             Model.CanPartiallyRefund || Model.CanPartiallyRefundOffline || Model.CanVoid || Model.CanVoidOffline)
             {
                 <div class="form-group">
                     <div class="col-md-9 col-md-offset-3">

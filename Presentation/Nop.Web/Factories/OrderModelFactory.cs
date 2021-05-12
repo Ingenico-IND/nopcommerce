@@ -131,8 +131,11 @@ namespace Nop.Web.Factories
         public virtual CustomerOrderListModel PrepareCustomerOrderListModel()
         {
             var model = new CustomerOrderListModel();
-            var orders = _orderService.SearchOrders(storeId: _storeContext.CurrentStore.Id,
-                customerId: _workContext.CurrentCustomer.Id);
+            //var orders = _orderService.SearchOrders(storeId: _storeContext.CurrentStore.Id,
+            //    customerId: _workContext.CurrentCustomer.Id);
+
+
+            var orders = _orderService.GetOrdersByCustId(_workContext.CurrentCustomer.Id);
             foreach (var order in orders)
             {
                 var orderModel = new CustomerOrderListModel.OrderDetailsModel

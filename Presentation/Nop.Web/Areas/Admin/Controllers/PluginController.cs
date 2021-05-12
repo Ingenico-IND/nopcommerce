@@ -116,6 +116,9 @@ namespace Nop.Web.Areas.Admin.Controllers
 
             var model = _pluginModelFactory.PreparePluginSearchModel(new PluginSearchModel());
 
+
+
+
             return View(model);
         }
 

@@ -172,6 +172,7 @@ namespace Nop.Web.Areas.Admin.Models.Orders
         public string CaptureTransactionId { get; set; }
         [NopResourceDisplayName("Admin.Orders.Fields.SubscriptionTransactionID")]
         public string SubscriptionTransactionId { get; set; }
+        public string CaptureTransactionResult { get; set; }
 
         //shipping info
         public bool IsShippable { get; set; }
