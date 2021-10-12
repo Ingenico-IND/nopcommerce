@@ -16610,11 +16610,11 @@
   "project": {
     "version": "4.2.0",
     "restore": {
-      "projectUniqueName": "D:\\Nitin\\Projects\\Worldline\\nopcommerce-master\\nopcommerce-master\\Tests\\Nop.Services.Tests\\Nop.Services.Tests.csproj",
+      "projectUniqueName": "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Tests\\Nop.Services.Tests\\Nop.Services.Tests.csproj",
       "projectName": "Nop.Services.Tests",
-      "projectPath": "D:\\Nitin\\Projects\\Worldline\\nopcommerce-master\\nopcommerce-master\\Tests\\Nop.Services.Tests\\Nop.Services.Tests.csproj",
+      "projectPath": "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Tests\\Nop.Services.Tests\\Nop.Services.Tests.csproj",
       "packagesPath": "C:\\Users\\nitin.sirsat\\.nuget\\packages\\",
-      "outputPath": "D:\\Nitin\\Projects\\Worldline\\nopcommerce-master\\nopcommerce-master\\Tests\\Nop.Services.Tests\\obj\\",
+      "outputPath": "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Tests\\Nop.Services.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -16633,11 +16633,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\Nitin\\Projects\\Worldline\\nopcommerce-master\\nopcommerce-master\\Libraries\\Nop.Services\\Nop.Services.csproj": {
-              "projectPath": "D:\\Nitin\\Projects\\Worldline\\nopcommerce-master\\nopcommerce-master\\Libraries\\Nop.Services\\Nop.Services.csproj"
+            "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Libraries\\Nop.Services\\Nop.Services.csproj": {
+              "projectPath": "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Libraries\\Nop.Services\\Nop.Services.csproj"
             },
-            "D:\\Nitin\\Projects\\Worldline\\nopcommerce-master\\nopcommerce-master\\Tests\\Nop.Tests\\Nop.Tests.csproj": {
-              "projectPath": "D:\\Nitin\\Projects\\Worldline\\nopcommerce-master\\nopcommerce-master\\Tests\\Nop.Tests\\Nop.Tests.csproj"
+            "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Tests\\Nop.Tests\\Nop.Tests.csproj": {
+              "projectPath": "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Tests\\Nop.Tests\\Nop.Tests.csproj"
             }
           }
         }

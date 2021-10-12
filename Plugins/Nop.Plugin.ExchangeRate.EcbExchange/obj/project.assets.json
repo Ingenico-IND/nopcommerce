@@ -15566,11 +15566,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Nitin\\Projects\\Worldline\\nopcommerce-master\\nopcommerce-master\\Plugins\\Nop.Plugin.ExchangeRate.EcbExchange\\Nop.Plugin.ExchangeRate.EcbExchange.csproj",
+      "projectUniqueName": "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Plugins\\Nop.Plugin.ExchangeRate.EcbExchange\\Nop.Plugin.ExchangeRate.EcbExchange.csproj",
       "projectName": "Nop.Plugin.ExchangeRate.EcbExchange",
-      "projectPath": "D:\\Nitin\\Projects\\Worldline\\nopcommerce-master\\nopcommerce-master\\Plugins\\Nop.Plugin.ExchangeRate.EcbExchange\\Nop.Plugin.ExchangeRate.EcbExchange.csproj",
+      "projectPath": "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Plugins\\Nop.Plugin.ExchangeRate.EcbExchange\\Nop.Plugin.ExchangeRate.EcbExchange.csproj",
       "packagesPath": "C:\\Users\\nitin.sirsat\\.nuget\\packages\\",
-      "outputPath": "D:\\Nitin\\Projects\\Worldline\\nopcommerce-master\\nopcommerce-master\\Plugins\\Nop.Plugin.ExchangeRate.EcbExchange\\obj\\",
+      "outputPath": "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Plugins\\Nop.Plugin.ExchangeRate.EcbExchange\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -15589,8 +15589,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\Nitin\\Projects\\Worldline\\nopcommerce-master\\nopcommerce-master\\Libraries\\Nop.Services\\Nop.Services.csproj": {
-              "projectPath": "D:\\Nitin\\Projects\\Worldline\\nopcommerce-master\\nopcommerce-master\\Libraries\\Nop.Services\\Nop.Services.csproj"
+            "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Libraries\\Nop.Services\\Nop.Services.csproj": {
+              "projectPath": "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Libraries\\Nop.Services\\Nop.Services.csproj"
             }
           }
         }

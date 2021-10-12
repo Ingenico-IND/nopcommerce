@@ -16838,11 +16838,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Nitin\\Projects\\Worldline\\nopcommerce-master\\nopcommerce-master\\Plugins\\Nop.Plugin.Tax.Avalara\\Nop.Plugin.Tax.Avalara.csproj",
+      "projectUniqueName": "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Plugins\\Nop.Plugin.Tax.Avalara\\Nop.Plugin.Tax.Avalara.csproj",
       "projectName": "Nop.Plugin.Tax.Avalara",
-      "projectPath": "D:\\Nitin\\Projects\\Worldline\\nopcommerce-master\\nopcommerce-master\\Plugins\\Nop.Plugin.Tax.Avalara\\Nop.Plugin.Tax.Avalara.csproj",
+      "projectPath": "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Plugins\\Nop.Plugin.Tax.Avalara\\Nop.Plugin.Tax.Avalara.csproj",
       "packagesPath": "C:\\Users\\nitin.sirsat\\.nuget\\packages\\",
-      "outputPath": "D:\\Nitin\\Projects\\Worldline\\nopcommerce-master\\nopcommerce-master\\Plugins\\Nop.Plugin.Tax.Avalara\\obj\\",
+      "outputPath": "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Plugins\\Nop.Plugin.Tax.Avalara\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -16861,8 +16861,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\Nitin\\Projects\\Worldline\\nopcommerce-master\\nopcommerce-master\\Presentation\\Nop.Web\\Nop.Web.csproj": {
-              "projectPath": "D:\\Nitin\\Projects\\Worldline\\nopcommerce-master\\nopcommerce-master\\Presentation\\Nop.Web\\Nop.Web.csproj"
+            "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Presentation\\Nop.Web\\Nop.Web.csproj": {
+              "projectPath": "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Presentation\\Nop.Web\\Nop.Web.csproj"
             }
           }
         }

@@ -16609,11 +16609,11 @@
   "project": {
     "version": "4.2.0",
     "restore": {
-      "projectUniqueName": "D:\\Nitin\\Projects\\Worldline\\nopcommerce-master\\nopcommerce-master\\Tests\\Nop.Core.Tests\\Nop.Core.Tests.csproj",
+      "projectUniqueName": "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Tests\\Nop.Core.Tests\\Nop.Core.Tests.csproj",
       "projectName": "Nop.Core.Tests",
-      "projectPath": "D:\\Nitin\\Projects\\Worldline\\nopcommerce-master\\nopcommerce-master\\Tests\\Nop.Core.Tests\\Nop.Core.Tests.csproj",
+      "projectPath": "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Tests\\Nop.Core.Tests\\Nop.Core.Tests.csproj",
       "packagesPath": "C:\\Users\\nitin.sirsat\\.nuget\\packages\\",
-      "outputPath": "D:\\Nitin\\Projects\\Worldline\\nopcommerce-master\\nopcommerce-master\\Tests\\Nop.Core.Tests\\obj\\",
+      "outputPath": "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Tests\\Nop.Core.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -16632,8 +16632,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\Nitin\\Projects\\Worldline\\nopcommerce-master\\nopcommerce-master\\Tests\\Nop.Tests\\Nop.Tests.csproj": {
-              "projectPath": "D:\\Nitin\\Projects\\Worldline\\nopcommerce-master\\nopcommerce-master\\Tests\\Nop.Tests\\Nop.Tests.csproj"
+            "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Tests\\Nop.Tests\\Nop.Tests.csproj": {
+              "projectPath": "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Tests\\Nop.Tests\\Nop.Tests.csproj"
             }
           }
         }

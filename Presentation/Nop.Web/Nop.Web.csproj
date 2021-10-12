@@ -64,7 +64,7 @@
     <Content Update="Areas\Admin\Views\Shared\_ConfigurePlugin.cshtml">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Content>
-    <Content Update="Plugins\Payments.Ingenico\Areas\Admin\Views\Shared\_ConfigurePlugin.cshtml">
+    <Content Update="Plugins\Payments.Worldline\Areas\Admin\Views\Shared\_ConfigurePlugin.cshtml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

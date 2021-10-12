@@ -1,9 +1,3 @@
-D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Plugins\Nop.Plugin.Payments.Ingenico\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.Worldline.csproj.CoreCompileInputs.cache
-D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Plugins\Nop.Plugin.Payments.Ingenico\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.Worldline.AssemblyInfoInputs.cache
-D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Plugins\Nop.Plugin.Payments.Ingenico\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.Worldline.AssemblyInfo.cs
-D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Plugins\Nop.Plugin.Payments.Ingenico\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.Worldline.csproj.CopyComplete
-D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Plugins\Nop.Plugin.Payments.Ingenico\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.Worldline.dll
-D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Plugins\Nop.Plugin.Payments.Ingenico\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.Worldline.pdb
 D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Presentation\Nop.Web\Plugins\Payments.Worldline\plugin.json
 D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Presentation\Nop.Web\Plugins\Payments.Worldline\logo.png
 D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Presentation\Nop.Web\Plugins\Payments.Worldline\Views\Configure.cshtml
@@ -16,10 +10,10 @@ D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Presentation\N
 D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Presentation\Nop.Web\Plugins\Payments.Worldline\Nop.Plugin.Payments.Worldline.deps.json
 D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Presentation\Nop.Web\Plugins\Payments.Worldline\Nop.Plugin.Payments.Worldline.dll
 D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Presentation\Nop.Web\Plugins\Payments.Worldline\Nop.Plugin.Payments.Worldline.pdb
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Plugins\Nop.Plugin.Payments.Worldline\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.Worldline.csprojAssemblyReference.cache
 D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Plugins\Nop.Plugin.Payments.Worldline\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.Worldline.csproj.CoreCompileInputs.cache
 D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Plugins\Nop.Plugin.Payments.Worldline\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.Worldline.AssemblyInfoInputs.cache
 D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Plugins\Nop.Plugin.Payments.Worldline\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.Worldline.AssemblyInfo.cs
 D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Plugins\Nop.Plugin.Payments.Worldline\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.Worldline.csproj.CopyComplete
 D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Plugins\Nop.Plugin.Payments.Worldline\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.Worldline.dll
 D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Plugins\Nop.Plugin.Payments.Worldline\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.Worldline.pdb
-D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Plugins\Nop.Plugin.Payments.Worldline\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.Worldline.csprojAssemblyReference.cache
