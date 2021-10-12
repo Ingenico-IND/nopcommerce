@@ -54,3 +54,17 @@ F:\IngenicoCore\src\Libraries\Nop.Services\obj\Debug\netcoreapp2.2\Nop.Services.
 F:\IngenicoCore\src\Libraries\Nop.Services\obj\Debug\netcoreapp2.2\Nop.Services.csproj.CopyComplete
 F:\IngenicoCore\src\Libraries\Nop.Services\obj\Debug\netcoreapp2.2\Nop.Services.dll
 F:\IngenicoCore\src\Libraries\Nop.Services\obj\Debug\netcoreapp2.2\Nop.Services.pdb
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Libraries\Nop.Services\bin\Debug\netcoreapp2.2\Nop.Services.deps.json
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Libraries\Nop.Services\bin\Debug\netcoreapp2.2\Nop.Services.dll
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Libraries\Nop.Services\bin\Debug\netcoreapp2.2\Nop.Services.pdb
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Libraries\Nop.Services\bin\Debug\netcoreapp2.2\Nop.Core.dll
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Libraries\Nop.Services\bin\Debug\netcoreapp2.2\Nop.Data.dll
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Libraries\Nop.Services\bin\Debug\netcoreapp2.2\Nop.Core.pdb
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Libraries\Nop.Services\bin\Debug\netcoreapp2.2\Nop.Data.pdb
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Libraries\Nop.Services\obj\Debug\netcoreapp2.2\Nop.Services.csprojAssemblyReference.cache
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Libraries\Nop.Services\obj\Debug\netcoreapp2.2\Nop.Services.csproj.CoreCompileInputs.cache
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Libraries\Nop.Services\obj\Debug\netcoreapp2.2\Nop.Services.AssemblyInfoInputs.cache
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Libraries\Nop.Services\obj\Debug\netcoreapp2.2\Nop.Services.AssemblyInfo.cs
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Libraries\Nop.Services\obj\Debug\netcoreapp2.2\Nop.Services.csproj.CopyComplete
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Libraries\Nop.Services\obj\Debug\netcoreapp2.2\Nop.Services.dll
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Libraries\Nop.Services\obj\Debug\netcoreapp2.2\Nop.Services.pdb

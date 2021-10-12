@@ -70,7 +70,7 @@
 
                 tab.append('<tr><th>Status Code</th><td>' + data['paymentMethod']['paymentTransaction']['statusCode'] + '</td></tr>');
                 tab.append('<tr><th>Merchant Transaction Reference No</th><td>' + data['merchantTransactionIdentifier'] + '</td></tr>');
-                tab.append('<tr><th>Ingenico Merchant Transaction ID</th><td>' + data['paymentMethod']['paymentTransaction']['identifier'] + '</td></tr>');
+                tab.append('<tr><th>Worldline Merchant Transaction ID</th><td>' + data['paymentMethod']['paymentTransaction']['identifier'] + '</td></tr>');
                 tab.append('<tr><th>Amount</th><td>' + data['paymentMethod']['paymentTransaction']['amount'] + '</td></tr>');
                 tab.append('<tr><th>Message</th><td>' + data['paymentMethod']['paymentTransaction']['errorMessage'] + '</td></tr>');
                 tab.append('<tr><th>Status Message</th><td>' + data['paymentMethod']['paymentTransaction']['statusMessage'] + '</td></tr>');
@@ -85,10 +85,10 @@
 
 <body>
     <h1>Refund</h1>
-    <form action="/nopcommIngenico/payment/Refund"  class="form-inline" accept-charset="UTF-8" method="post">
+    <form action="/nopcommWorldline/payment/Refund"  class="form-inline" accept-charset="UTF-8" method="post">
         <input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="H/zDnaJK13Ze1YOIz5daEdGwY7iSGONQrTGjEv2JxioGwN6ObfTiq1/hS85gi2KHfl+0mq5FCeDOjRvoPf88kA==" />
 
-        <label for="Tansaction_ID">Ingenico Merchant Tansaction ID: </label>
+        <label for="Tansaction_ID">Worldline Merchant Tansaction ID: </label>
         <input type="text" class="mr-5" name="token" id="token" value="" required="required" />
 
         <label for="Amount">Amount: </label>

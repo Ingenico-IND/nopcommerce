@@ -16,7 +16,7 @@
     "Widgets.GoogleAnalytics",
     "Widgets.NivoSlider",
     "ExternalAuth.Facebook",
-    "Payments.Ingenico"
+    "Payments.Worldline"
   ],
   "PluginNamesToUninstall": [],
   "PluginNamesToDelete": [],

@@ -27,3 +27,17 @@ F:\IngenicoCore\src\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\netcore
 F:\IngenicoCore\src\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.PayPalStandard.dll
 F:\IngenicoCore\src\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.PayPalStandard.pdb
 F:\IngenicoCore\src\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.PayPalStandard.csprojAssemblyReference.cache
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\logo.jpg
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\plugin.json
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Views\Configure.cshtml
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Views\PaymentInfo.cshtml
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Views\_ViewImports.cshtml
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Nop.Plugin.Payments.PayPalStandard.deps.json
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Nop.Plugin.Payments.PayPalStandard.dll
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Nop.Plugin.Payments.PayPalStandard.pdb
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.PayPalStandard.csproj.CoreCompileInputs.cache
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.PayPalStandard.AssemblyInfoInputs.cache
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.PayPalStandard.AssemblyInfo.cs
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.PayPalStandard.csproj.CopyComplete
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.PayPalStandard.dll
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\netcoreapp2.2\Nop.Plugin.Payments.PayPalStandard.pdb

@@ -61,7 +61,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nop.Plugin.Misc.SendinBlue"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nop.Plugin.Tax.Avalara", "Plugins\Nop.Plugin.Tax.Avalara\Nop.Plugin.Tax.Avalara.csproj", "{2426B75D-23D4-41EF-8924-47650C8A18C7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nop.Plugin.Payments.Ingenico", "Plugins\Nop.Plugin.Payments.Ingenico\Nop.Plugin.Payments.Ingenico.csproj", "{0853C6CC-CDE6-4FE9-B9D5-AF6B70B07D09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nop.Plugin.Payments.Worldline", "Plugins\Nop.Plugin.Payments.Worldline\Nop.Plugin.Payments.Worldline.csproj", "{0853C6CC-CDE6-4FE9-B9D5-AF6B70B07D09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

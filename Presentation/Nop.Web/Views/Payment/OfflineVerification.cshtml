@@ -78,7 +78,7 @@
 
                 tab.append('<tr><th>Status Code</th><td>' + data['paymentMethod']['paymentTransaction']['statusCode'] + '</td></tr>');
                 tab.append('<tr><th>Merchant Transaction Reference No</th><td>' + data['merchantTransactionIdentifier'] + '</td></tr>');
-                tab.append('<tr><th>Ingenico Merchant Transaction ID</th><td>' + data['paymentMethod']['paymentTransaction']['identifier'] + '</td></tr>');
+                tab.append('<tr><th>Worldline Merchant Transaction ID</th><td>' + data['paymentMethod']['paymentTransaction']['identifier'] + '</td></tr>');
                 tab.append('<tr><th>Amount</th><td>' + data['paymentMethod']['paymentTransaction']['amount'] + '</td></tr>');
                 tab.append('<tr><th>Message</th><td>' + data['paymentMethod']['paymentTransaction']['errorMessage'] + '</td></tr>');
                 tab.append('<tr><th>Status Message</th><td>' + data['paymentMethod']['paymentTransaction']['statusMessage'] + '</td></tr>');
@@ -110,7 +110,7 @@
 <body>
 
     <h1>Offline Verification</h1>
-    <form action="/nopcommIngenico/payment/OfflineVerification" accept-charset="UTF-8" metrod="post">
+    <form action="/nopcommWorldline/payment/OfflineVerification" accept-charset="UTF-8" metrod="post">
         <input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="autrenticity_token" value="NPjjWw4b8K0Z/FxfIRF407E0mrp5gn6s2pBBJupoqcTJ6NYGufp0VQWUjXXndw5KneAjBvHBorjWTxlXRmeZDQ==" />
         <label for="Merchant_Ref_No">Merchant Ref No: </label>
         <input type="text" name="merchantRefNo" id="merchantRefNo" value="" required="required" />
@@ -119,7 +119,7 @@
         <input type="submit" class="btn btn-primary"  name="commit" value="Submit" id="btnsubmit" data-disable-witr="submit" />
     </form>	<br><br>
 
-    <form action="/nopcommIngenico/payment/OfflineVerification" id="UpdatePanel" accept-charset="UTF-8" metrod="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="autrenticity_token" value="crC+NddpEUyFQ/0NxrGbpGFfoIDl2BnVEstf2JVQAhWPoItoYIiVtJkrLCcA1+09TYsZPG2bxcEeFAepOV8y3A==" /></form>
+    <form action="/nopcommWorldline/payment/OfflineVerification" id="UpdatePanel" accept-charset="UTF-8" metrod="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="autrenticity_token" value="crC+NddpEUyFQ/0NxrGbpGFfoIDl2BnVEstf2JVQAhWPoItoYIiVtJkrLCcA1+09TYsZPG2bxcEeFAepOV8y3A==" /></form>
 </body>
 
 </html>

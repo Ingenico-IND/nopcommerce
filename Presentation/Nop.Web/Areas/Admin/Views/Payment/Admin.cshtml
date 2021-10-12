@@ -4,7 +4,7 @@
 }
 
 <head>
-    <title>Ingenico Admin</title>
+    <title>Worldline Admin</title>
 
     <style>
         table, td, th {
@@ -59,7 +59,7 @@
 </head>
 
 <body>
-    <h2>Ingenico Admin</h2>
+    <h2>Worldline Admin</h2>
     @*@if (HttpContext.Current.Request.HttpMethod == "POST")*@
     @if (Context.Request.Method == "POST")
     {
@@ -70,7 +70,7 @@
     }
 
     @* /checkoutdotnet *@
-    @*<form action="/nopcommIngenico/payment/admin" accept-charset="UTF-8" method="post">*@
+    @*<form action="/nopcommWorldline/payment/admin" accept-charset="UTF-8" method="post">*@
     <form action="" accept-charset="UTF-8" method="post">
         <input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="@ViewBag.config_data[1]" />
 
@@ -80,7 +80,7 @@
                     Description
                 </th>
                 <td>
-                    Ingenico ePayments (a Worldline brand) is India's leading digital payment solutions company. Being a company with more than 45 years of global payment experience, we are present in India for over 20 years and are powering over 550,000 businesses with our tailored payment solution.
+                    Worldline ePayments (a Worldline brand) is India's leading digital payment solutions company. Being a company with more than 45 years of global payment experience, we are present in India for over 20 years and are powering over 550,000 businesses with our tailored payment solution.
                 </td>
             </tr>
 
@@ -281,7 +281,7 @@
                             <option value="emiBanks">emiBanks</option>
                         </select>*@
                     <br><br>
-                    If Bank selection is at Ingenico ePayments India Pvt. Ltd. (a Worldline brand) end then select all, if bank selection at Merchant end then pass appropriate mode respective to selected option
+                    If Bank selection is at Worldline ePayments India Pvt. Ltd. (a Worldline brand) end then select all, if bank selection at Merchant end then pass appropriate mode respective to selected option
                 </td>
             </tr>
 

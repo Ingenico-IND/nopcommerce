@@ -46,3 +46,15 @@ F:\IngenicoCore\src\Libraries\Nop.Data\obj\Debug\netcoreapp2.2\Nop.Data.Assembly
 F:\IngenicoCore\src\Libraries\Nop.Data\obj\Debug\netcoreapp2.2\Nop.Data.csproj.CopyComplete
 F:\IngenicoCore\src\Libraries\Nop.Data\obj\Debug\netcoreapp2.2\Nop.Data.dll
 F:\IngenicoCore\src\Libraries\Nop.Data\obj\Debug\netcoreapp2.2\Nop.Data.pdb
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Libraries\Nop.Data\bin\Debug\netcoreapp2.2\Nop.Data.deps.json
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Libraries\Nop.Data\bin\Debug\netcoreapp2.2\Nop.Data.dll
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Libraries\Nop.Data\bin\Debug\netcoreapp2.2\Nop.Data.pdb
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Libraries\Nop.Data\bin\Debug\netcoreapp2.2\Nop.Core.dll
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Libraries\Nop.Data\bin\Debug\netcoreapp2.2\Nop.Core.pdb
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Libraries\Nop.Data\obj\Debug\netcoreapp2.2\Nop.Data.csprojAssemblyReference.cache
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Libraries\Nop.Data\obj\Debug\netcoreapp2.2\Nop.Data.csproj.CoreCompileInputs.cache
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Libraries\Nop.Data\obj\Debug\netcoreapp2.2\Nop.Data.AssemblyInfoInputs.cache
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Libraries\Nop.Data\obj\Debug\netcoreapp2.2\Nop.Data.AssemblyInfo.cs
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Libraries\Nop.Data\obj\Debug\netcoreapp2.2\Nop.Data.csproj.CopyComplete
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Libraries\Nop.Data\obj\Debug\netcoreapp2.2\Nop.Data.dll
+D:\Nitin\Projects\Worldline\nopcommerce-master\nopcommerce-master\Libraries\Nop.Data\obj\Debug\netcoreapp2.2\Nop.Data.pdb

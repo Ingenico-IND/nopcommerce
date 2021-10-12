@@ -128,7 +128,7 @@
 
                 <tr>
                     <td> <label for="Return_Url">Return url</label> </td>
-                    <td> <input type="text" name="returnUrl" id="returnUrl" value="http://192.168.1.84:8088/nopcommIngenico/Response/responseHandler" /> </td>
+                    <td> <input type="text" name="returnUrl" id="returnUrl" value="http://192.168.1.84:8088/nopcommWorldline/Response/responseHandler" /> </td>
                 </tr>
                 <tr class="@(ViewBag.enbSi ? Html.Raw("show") : Html.Raw("hid"))">
                     <td> <label for="accNo">Account No</label> </td>
@@ -207,7 +207,7 @@
         <input type="hidden" name="config_data" id="config_data" value="" />
 
         <div><input type="submit" class="btn btn-primary" name="commit" value="Save" id="btnSubmit" data-disable-with="Save" /></div>
-        <div id="ingenico_embeded_popup"></div>
+        <div id="worldline_embeded_popup"></div>
 
 
     </form>
@@ -287,7 +287,7 @@ $.ajax({
 
                 var paymentModeOrder = jsonVals['paymentModeOrder'].replace(" ", "");
                 var paymentModeOrderArr = paymentModeOrder.split(",");
-                var embdPmntGtway = (jsonVals['embedPaymentGatewayOnPage'] == valueB) ? "" : (jsonVals['enableNewWindowFlow'] != valueB) ? "#ingenico_embeded_popup" : "";
+                var embdPmntGtway = (jsonVals['embedPaymentGatewayOnPage'] == valueB) ? "" : (jsonVals['enableNewWindowFlow'] != valueB) ? "#worldline_embeded_popup" : "";
                 var configJson = {
                     "tarCall": false,
                     "features": {
