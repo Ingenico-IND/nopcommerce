@@ -1,6 +1,6 @@
 ﻿{
   "Group": "Payment methods",
-  "FriendlyName": "Worldline",
+  "FriendlyName": "Cards / UPI / Netbanking / Wallets",
   "SystemName": "Payments.Worldline",
   "Version": "1.55",
   "SupportedVersions": [ "4.20" ],

@@ -1,0 +1,13 @@
+D:\Nitin\Projects\Worldline\22_Oct_2021\nopcommerce-master\Presentation\Nop.Web\Plugins\Shipping.UPS\logo.jpg
+D:\Nitin\Projects\Worldline\22_Oct_2021\nopcommerce-master\Presentation\Nop.Web\Plugins\Shipping.UPS\plugin.json
+D:\Nitin\Projects\Worldline\22_Oct_2021\nopcommerce-master\Presentation\Nop.Web\Plugins\Shipping.UPS\Views\Configure.cshtml
+D:\Nitin\Projects\Worldline\22_Oct_2021\nopcommerce-master\Presentation\Nop.Web\Plugins\Shipping.UPS\Views\_ViewImports.cshtml
+D:\Nitin\Projects\Worldline\22_Oct_2021\nopcommerce-master\Presentation\Nop.Web\Plugins\Shipping.UPS\Nop.Plugin.Shipping.UPS.deps.json
+D:\Nitin\Projects\Worldline\22_Oct_2021\nopcommerce-master\Presentation\Nop.Web\Plugins\Shipping.UPS\Nop.Plugin.Shipping.UPS.dll
+D:\Nitin\Projects\Worldline\22_Oct_2021\nopcommerce-master\Presentation\Nop.Web\Plugins\Shipping.UPS\Nop.Plugin.Shipping.UPS.pdb
+D:\Nitin\Projects\Worldline\22_Oct_2021\nopcommerce-master\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\netcoreapp2.2\Nop.Plugin.Shipping.UPS.csproj.CoreCompileInputs.cache
+D:\Nitin\Projects\Worldline\22_Oct_2021\nopcommerce-master\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\netcoreapp2.2\Nop.Plugin.Shipping.UPS.AssemblyInfoInputs.cache
+D:\Nitin\Projects\Worldline\22_Oct_2021\nopcommerce-master\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\netcoreapp2.2\Nop.Plugin.Shipping.UPS.AssemblyInfo.cs
+D:\Nitin\Projects\Worldline\22_Oct_2021\nopcommerce-master\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\netcoreapp2.2\Nop.Plugin.Shipping.UPS.csproj.CopyComplete
+D:\Nitin\Projects\Worldline\22_Oct_2021\nopcommerce-master\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\netcoreapp2.2\Nop.Plugin.Shipping.UPS.dll
+D:\Nitin\Projects\Worldline\22_Oct_2021\nopcommerce-master\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\netcoreapp2.2\Nop.Plugin.Shipping.UPS.pdb

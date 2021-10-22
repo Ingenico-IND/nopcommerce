@@ -698,7 +698,7 @@ namespace Nop.Plugin.Payments.Worldline
             _localizationService.AddOrUpdatePluginLocaleResource("Plugins.Payments.Worldline.Fields.showPGResponseMsg", "Show PG Response Msg");
             _localizationService.AddOrUpdatePluginLocaleResource("Plugins.Payments.Worldline.Fields.frequency", "Frequency");
             _localizationService.AddOrUpdatePluginLocaleResource("Plugins.payments.Worldline.Fields.redirectiontip", "Cards / UPI / Netbanking / Wallets");
-            _localizationService.AddOrUpdatePluginLocaleResource("Plugins.payments.Worldline.Fields.paymentmethoddescription", "Cards / UPI / Netbanking / Wallets");
+            _localizationService.AddOrUpdatePluginLocaleResource("Plugins.payments.Worldline.Fields.paymentmethoddescription", "_");
 
 
 
@@ -736,7 +736,7 @@ namespace Nop.Plugin.Payments.Worldline
             // <br />9. Click Save.
             // <br />
             //</p>");
-            _localizationService.AddOrUpdatePluginLocaleResource("Plugins.Payments.Worldline.PaymentMethodDescription", "Cards / UPI / Netbanking / Wallets");
+            _localizationService.AddOrUpdatePluginLocaleResource("Plugins.Payments.Worldline.PaymentMethodDescription", "_");
             _localizationService.AddOrUpdatePluginLocaleResource("Plugins.Payments.Worldline.RoundingWarning", "It looks like you have \"ShoppingCartSettings.RoundPricesDuringCalculation\" setting disabled. Keep in mind that this can lead to a discrepancy of the order total amount, as Worldline only rounds to two decimals.");
 
             base.Install();
