@@ -16854,11 +16854,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Plugins\\Nop.Plugin.Payments.Square\\Nop.Plugin.Payments.Square.csproj",
+      "projectUniqueName": "D:\\Nitin\\Projects\\Worldline\\22_Oct_2021\\nopcommerce-master\\Plugins\\Nop.Plugin.Payments.Square\\Nop.Plugin.Payments.Square.csproj",
       "projectName": "Nop.Plugin.Payments.Square",
-      "projectPath": "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Plugins\\Nop.Plugin.Payments.Square\\Nop.Plugin.Payments.Square.csproj",
+      "projectPath": "D:\\Nitin\\Projects\\Worldline\\22_Oct_2021\\nopcommerce-master\\Plugins\\Nop.Plugin.Payments.Square\\Nop.Plugin.Payments.Square.csproj",
       "packagesPath": "C:\\Users\\nitin.sirsat\\.nuget\\packages\\",
-      "outputPath": "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Plugins\\Nop.Plugin.Payments.Square\\obj\\",
+      "outputPath": "D:\\Nitin\\Projects\\Worldline\\22_Oct_2021\\nopcommerce-master\\Plugins\\Nop.Plugin.Payments.Square\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -16877,8 +16877,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Presentation\\Nop.Web\\Nop.Web.csproj": {
-              "projectPath": "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Presentation\\Nop.Web\\Nop.Web.csproj"
+            "D:\\Nitin\\Projects\\Worldline\\22_Oct_2021\\nopcommerce-master\\Presentation\\Nop.Web\\Nop.Web.csproj": {
+              "projectPath": "D:\\Nitin\\Projects\\Worldline\\22_Oct_2021\\nopcommerce-master\\Presentation\\Nop.Web\\Nop.Web.csproj"
             }
           }
         }

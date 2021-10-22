@@ -15863,11 +15863,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Plugins\\Nop.Plugin.Payments.CheckMoneyOrder\\Nop.Plugin.Payments.CheckMoneyOrder.csproj",
+      "projectUniqueName": "D:\\Nitin\\Projects\\Worldline\\22_Oct_2021\\nopcommerce-master\\Plugins\\Nop.Plugin.Payments.CheckMoneyOrder\\Nop.Plugin.Payments.CheckMoneyOrder.csproj",
       "projectName": "Nop.Plugin.Payments.CheckMoneyOrder",
-      "projectPath": "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Plugins\\Nop.Plugin.Payments.CheckMoneyOrder\\Nop.Plugin.Payments.CheckMoneyOrder.csproj",
+      "projectPath": "D:\\Nitin\\Projects\\Worldline\\22_Oct_2021\\nopcommerce-master\\Plugins\\Nop.Plugin.Payments.CheckMoneyOrder\\Nop.Plugin.Payments.CheckMoneyOrder.csproj",
       "packagesPath": "C:\\Users\\nitin.sirsat\\.nuget\\packages\\",
-      "outputPath": "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Plugins\\Nop.Plugin.Payments.CheckMoneyOrder\\obj\\",
+      "outputPath": "D:\\Nitin\\Projects\\Worldline\\22_Oct_2021\\nopcommerce-master\\Plugins\\Nop.Plugin.Payments.CheckMoneyOrder\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -15886,8 +15886,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj": {
-              "projectPath": "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj"
+            "D:\\Nitin\\Projects\\Worldline\\22_Oct_2021\\nopcommerce-master\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj": {
+              "projectPath": "D:\\Nitin\\Projects\\Worldline\\22_Oct_2021\\nopcommerce-master\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj"
             }
           }
         }

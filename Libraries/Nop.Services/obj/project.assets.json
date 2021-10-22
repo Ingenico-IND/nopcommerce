@@ -15548,11 +15548,11 @@
   "project": {
     "version": "4.2.0",
     "restore": {
-      "projectUniqueName": "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Libraries\\Nop.Services\\Nop.Services.csproj",
+      "projectUniqueName": "D:\\Nitin\\Projects\\Worldline\\22_Oct_2021\\nopcommerce-master\\Libraries\\Nop.Services\\Nop.Services.csproj",
       "projectName": "Nop.Services",
-      "projectPath": "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Libraries\\Nop.Services\\Nop.Services.csproj",
+      "projectPath": "D:\\Nitin\\Projects\\Worldline\\22_Oct_2021\\nopcommerce-master\\Libraries\\Nop.Services\\Nop.Services.csproj",
       "packagesPath": "C:\\Users\\nitin.sirsat\\.nuget\\packages\\",
-      "outputPath": "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Libraries\\Nop.Services\\obj\\",
+      "outputPath": "D:\\Nitin\\Projects\\Worldline\\22_Oct_2021\\nopcommerce-master\\Libraries\\Nop.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -15571,11 +15571,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Libraries\\Nop.Core\\Nop.Core.csproj": {
-              "projectPath": "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Libraries\\Nop.Core\\Nop.Core.csproj"
+            "D:\\Nitin\\Projects\\Worldline\\22_Oct_2021\\nopcommerce-master\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+              "projectPath": "D:\\Nitin\\Projects\\Worldline\\22_Oct_2021\\nopcommerce-master\\Libraries\\Nop.Core\\Nop.Core.csproj"
             },
-            "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Libraries\\Nop.Data\\Nop.Data.csproj": {
-              "projectPath": "D:\\Nitin\\Projects\\Worldline\\Temp2\\nopcommerce-master\\Libraries\\Nop.Data\\Nop.Data.csproj"
+            "D:\\Nitin\\Projects\\Worldline\\22_Oct_2021\\nopcommerce-master\\Libraries\\Nop.Data\\Nop.Data.csproj": {
+              "projectPath": "D:\\Nitin\\Projects\\Worldline\\22_Oct_2021\\nopcommerce-master\\Libraries\\Nop.Data\\Nop.Data.csproj"
             }
           }
         }
